@@ -1,0 +1,65 @@
+.programiz-container {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  min-height: 100vh;
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.programiz-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #2b2d42;
+  margin-bottom: 10px;
+}
+
+.programiz-subtitle {
+  font-size: 1.1rem;
+  color: #4a4e69;
+  margin-bottom: 40px;
+}
+
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.btn {
+  background: #2b2d42;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 14px 0;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0px 4px 10px rgba(43, 45, 66, 0.2);
+}
+
+.btn:hover {
+  background: #4a4e69;
+  transform: translateY(-2px);
+  box-shadow: 0px 6px 14px rgba(43, 45, 66, 0.3);
+}
+
+.btn:active {
+  transform: translateY(1px);
+}
+
+@media (max-width: 600px) {
+  .programiz-title {
+    font-size: 2rem;
+  }
+
+  .programiz-subtitle {
+    font-size: 0.95rem;
+  }
+
+  .btn {
+    font-size: 0.9rem;
+  }
+}
